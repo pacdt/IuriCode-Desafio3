@@ -181,3 +181,44 @@ footer button:hover{
 footer button:active{
     opacity: .6;
 }
+
+/* RESPONSIVIDADE */    
+
+@media screen and (max-width: 900px) {
+    header{
+        flex-direction: column;
+        height: fit-content;
+    }
+    header h1{
+        padding-top: 55px;
+        width: 95%;
+        padding-left: 20px;
+    }
+    header p{
+        width: 90vw;
+        text-align: justify;
+        line-height: normal;
+        padding-left: 20px;
+    }
+    header button {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    header img{
+        width: 80%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    footer{
+        width: 100vw;
+    }
+    footer input{
+        width: 100%;
+    }
+    footer button{
+        width: 100%;
+    }
+    #messageBox{
+        width: 90vw;
+    }
+}
